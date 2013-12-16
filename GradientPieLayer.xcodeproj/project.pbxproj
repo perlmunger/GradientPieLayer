@@ -21,6 +21,8 @@
 		B3DEAC4C185FA044008A3018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DEAC2E185FA044008A3018 /* UIKit.framework */; };
 		B3DEAC54185FA044008A3018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3DEAC52185FA044008A3018 /* InfoPlist.strings */; };
 		B3DEAC56185FA044008A3018 /* GradientPieLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DEAC55185FA044008A3018 /* GradientPieLayerTests.m */; };
+		B3DEAC61185FA063008A3018 /* MLGradientPieLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DEAC60185FA063008A3018 /* MLGradientPieLayer.m */; };
+		B3DEAC63185FA06D008A3018 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DEAC62185FA06D008A3018 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		B3DEAC51185FA044008A3018 /* GradientPieLayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradientPieLayerTests-Info.plist"; sourceTree = "<group>"; };
 		B3DEAC53185FA044008A3018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3DEAC55185FA044008A3018 /* GradientPieLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientPieLayerTests.m; sourceTree = "<group>"; };
+		B3DEAC5F185FA063008A3018 /* MLGradientPieLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLGradientPieLayer.h; sourceTree = "<group>"; };
+		B3DEAC60185FA063008A3018 /* MLGradientPieLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLGradientPieLayer.m; sourceTree = "<group>"; };
+		B3DEAC62185FA06D008A3018 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DEAC63185FA06D008A3018 /* QuartzCore.framework in Frameworks */,
 				B3DEAC2D185FA044008A3018 /* CoreGraphics.framework in Frameworks */,
 				B3DEAC2F185FA044008A3018 /* UIKit.framework in Frameworks */,
 				B3DEAC2B185FA044008A3018 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		B3DEAC29185FA044008A3018 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3DEAC62185FA06D008A3018 /* QuartzCore.framework */,
 				B3DEAC2A185FA044008A3018 /* Foundation.framework */,
 				B3DEAC2C185FA044008A3018 /* CoreGraphics.framework */,
 				B3DEAC2E185FA044008A3018 /* UIKit.framework */,
@@ -119,6 +126,8 @@
 				B3DEAC40185FA044008A3018 /* MLViewController.m */,
 				B3DEAC42185FA044008A3018 /* Images.xcassets */,
 				B3DEAC31185FA044008A3018 /* Supporting Files */,
+				B3DEAC5F185FA063008A3018 /* MLGradientPieLayer.h */,
+				B3DEAC60185FA063008A3018 /* MLGradientPieLayer.m */,
 			);
 			path = GradientPieLayer;
 			sourceTree = "<group>";
@@ -251,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3DEAC37185FA044008A3018 /* main.m in Sources */,
+				B3DEAC61185FA063008A3018 /* MLGradientPieLayer.m in Sources */,
 				B3DEAC41185FA044008A3018 /* MLViewController.m in Sources */,
 				B3DEAC3B185FA044008A3018 /* MLAppDelegate.m in Sources */,
 			);
