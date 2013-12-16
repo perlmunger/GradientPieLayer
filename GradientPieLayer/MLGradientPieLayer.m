@@ -10,7 +10,6 @@
 
 @interface MLGradientPieLayer ()
 
-@property (nonatomic, strong) CAShapeLayer *shapeLayer;
 
 @end
 
@@ -38,7 +37,6 @@
         _shapeLayer.strokeColor = [[UIColor redColor] CGColor];
         _shapeLayer.lineWidth = self.bounds.size.width/2.0f;
         
-//        [self addSublayer:_shapeLayer];
         self.mask = _shapeLayer;
     }
     return self;

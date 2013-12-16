@@ -10,6 +10,8 @@
 
 @interface MLGradientPieLayer : CAGradientLayer
 
+@property (nonatomic, strong) CAShapeLayer *shapeLayer;
+
 - (instancetype)initWithRect:(CGRect)rect;
 
 - (void)setStart:(CGFloat)start;
